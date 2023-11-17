@@ -1,0 +1,50 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+.game{
+
+    height: 720px;
+    width: 480px;
+    background-color: #018286;
+    text-align: center;
+}
+.game {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    margin: 0;
+}
+.game a {
+    text-decoration: none;
+    background-color: #122a46;
+    color: #ff0000;
+    padding: 0px 50px;
+    border-radius: 50px;
+    margin: 5px;
+  }
+.game a{
+    text-decoration: none;
+}
+.game a p{
+    color: rgb(87, 77, 182);
+}
+.game a p:hover{
+    cursor: pointer;
+    color: #fceb98;
+    transition: 0.2s ease-in-out;
+}
+.game h1{
+    color: rgb(0, 0, 0);
+    font-size: 72px;
+}
+.game p{
+    color: rgb(77, 182, 121);
+}
